@@ -228,4 +228,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - NVIDIA Jetson platform
 - ROS community
 
-For any queries or issues, please contact the project maintainer.
+For any queries or issues, please free to contact me: atharvamolkulkarni@gmail.com
