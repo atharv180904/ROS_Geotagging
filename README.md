@@ -8,7 +8,7 @@ This ROS package geotags images captured by the Arducam IMX477 camera based on G
 1. **Camera Capture**: Captures images using `nvgstcapture-1.0`.
 2. **GPS Data Collection**: Collects GPS data from MAVROS topics and synchronizes it with image timestamps.
 3. **Geotagging and CSV Logging**: Associates each captured image with the most recent GPS data and logs the information in a CSV file.
-4. 3. **Multi-threaded architecture**
+4. **Multi-threaded architecture**: The script utilises a multi-threaded architecture to handle latency.
 
 ### Features
 
