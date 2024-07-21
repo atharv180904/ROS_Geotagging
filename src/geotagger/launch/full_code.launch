@@ -1,0 +1,10 @@
+<launch>
+    <!-- Launch ArduPilot Mavros -->
+
+    <!-- Launch your custom node -->
+    <node name="get_gps_data" pkg="geotagger" type="new_geotagging_node" output="screen"/>
+
+    <!-- Delayed launch of functionality node -->
+    <node name="functionality" pkg="geotagger" type="new_functionality" output="screen"/>
+
+</launch>
