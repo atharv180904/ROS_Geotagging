@@ -3,11 +3,12 @@ A ROS package for geotagging drone-captured images using custom ROS message pars
 
 ## Geotagger ROS Package
 
-This ROS package geotags images captured by the NVIDIA Jetson camera based on GPS data obtained from MAVROS. It consists of three main components:
+This ROS package geotags images captured by the Arducam IMX477 camera based on GPS data obtained from MAVROS. It consists of three main components:
 
 1. **Camera Capture**: Captures images using `nvgstcapture-1.0`.
 2. **GPS Data Collection**: Collects GPS data from MAVROS topics and synchronizes it with image timestamps.
 3. **Geotagging and CSV Logging**: Associates each captured image with the most recent GPS data and logs the information in a CSV file.
+4. 3. **Multi-threaded architecture**
 
 ### Features
 
