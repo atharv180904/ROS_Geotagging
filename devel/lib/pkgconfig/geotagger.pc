@@ -1,0 +1,8 @@
+prefix=/home/edhitha/mavros_geotagger_ws/devel
+
+Name: geotagger
+Description: Description of geotagger
+Version: 0.0.0
+Cflags: -I/home/edhitha/mavros_geotagger_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs geometry_msgs std_msgs mavros_msgs message_runtime
